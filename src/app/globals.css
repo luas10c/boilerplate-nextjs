@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+
+  --color-mantis-50: #F4FAEF;
+  --color-mantis-100: #E9F6E0;
+  --color-mantis-200: #D1EBBC;
+  --color-mantis-300: #BCE29D;
+  --color-mantis-400: #A4D779;
+  --color-mantis-500: #8ECE5A;
+  --color-mantis-600: #74BD38;
+  --color-mantis-700: #5E992E;
+  --color-mantis-800: #467222;
+  --color-mantis-900: #304F17;
+  --color-mantis-950: #243B12;
+}
+
+body {
+  @apply antialiased bg-zinc-950 text-white min-h-screen;
+}
