@@ -1,0 +1,25 @@
+node_modules
+
+dist
+
+out
+
+coverage
+
+.next
+
+.eslintcache
+
+.DS_Store
+
+*.tsbuildinfo
+
+.env*
+!.env.example
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
